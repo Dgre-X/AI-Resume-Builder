@@ -1,5 +1,4 @@
 import React from 'react'
-import PersonalDetails from './formSection/personalDetails'
 import { ArrowLeft, ArrowRight, Home, LayoutGrid } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { useState } from 'react'
@@ -9,6 +8,7 @@ import Education from './formSection/Education'
 import Skills from './formSection/Skills'
 import { Link, Navigate, useNavigate, useParams } from 'react-router-dom'
 import ThemeColor from './ThemeColor'
+import PersonalDetails from './formSection/PersonalDetails'
 
 
 const FormSection = () => {
