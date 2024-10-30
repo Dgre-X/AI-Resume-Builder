@@ -30,7 +30,7 @@ const Home = () => {
         </div>
       </div>
       <hr  className='my-5 w-[80%] mx-auto'/>
-      <div className='grid grid-cols-2 my-5'>
+      <div className='grid grid-cols-2 my-5 md:grid-cols-1 sm:grid-cols-1'>
         <div className='flex justify-end px-11'>
           <img src="/about.webp" width={500} height={500} alt="" />
         </div>
