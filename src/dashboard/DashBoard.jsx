@@ -26,8 +26,9 @@ const DashBoard = () => {
     GlobalAPI.getUserResume(user?.primaryEmailAddress?.emailAddress)
     .then(resp => {
       setResumeList(resp.data.data)
+      console.log(resp.data.data);
     } 
-    )
+    ).catch(error => console.error("Error fetching user resumes:", error));
   }
   return (
     <div>
