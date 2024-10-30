@@ -49,7 +49,7 @@ const ResumeCardElement = ({ resume, refreshData }) => {
                 <img src="/Notes.jpg" height={50} width={50} alt="" />
 
             </Link>
-            <div className='flex justify-between p-3 border  rounded-b-lg border-none' style={{
+            <div className='flex justify-between p-3 border text-black  rounded-b-lg border-none' style={{
                 backgroundColor: resume?.themeColor
             }}>
                 <p className='text-center my-1 text-black'>{resume.title}</p>
